@@ -1,0 +1,63 @@
+curl --location --request POST 'localhost:5001/v1/model' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "namebutton":"modificarmodelo",
+    "codigo": "PANT-0002",
+    "headless": false,
+    "fields": [{
+        "name": "nombre",
+        "value": "Pantalon Fino"
+    }]
+}'
+
+
+curl --location --request POST 'localhost:5001/v1/model' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "namebutton":"modificarmodelo",
+    "codigo": "PANT-0002",
+    "headless": false,
+    "fields": [{
+        "name": "descripcion",
+        "value": "Este es un pantalón fino"
+    }]
+}'
+
+
+curl --location --request POST 'localhost:5001/v1/model' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "namebutton":"modificarmodelo",
+    "codigo": "PANT-0002",
+    "headless": false,
+    "fields": [{
+        "name": "colorprimario",
+        "value": "6"
+    }]
+}'
+
+
+curl --location --request POST 'localhost:5001/v1/model' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "namebutton":"modificarmodelo",
+    "codigo": "PANT-0002",
+    "headless": false,
+    "fields": [{
+        "name": "tipoprenda",
+        "value": "4"
+    }]
+}'
+
+curl --location --request POST 'localhost:5001/v1/model' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "namebutton":"modificarmodelo",
+    "codigo": "PANT-0002",
+    "headless": false,
+    "fields": [{
+        "name": "tela",
+        "value": "3"
+    }]
+}'
+

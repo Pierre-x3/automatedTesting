@@ -24,7 +24,7 @@ class ChromeCluster {
       timeout: 86400000,
       puppeteerOptions: {
         headless: this.headless,
-        defaultViewport: {width:1920,height:1040},
+        defaultViewport: {width:1920,height:1080},
         args: [
           '--window-size=1920,1040',
           '--disable-dev-shm-usage'
@@ -66,7 +66,7 @@ class ChromeCluster {
 
   __showList(result){
     for(let key in result){
-      console.log(`${key} : "${result[key]}"`);
+      console.log(`${key} => "${result[key]}"`);
     }
   }
   
