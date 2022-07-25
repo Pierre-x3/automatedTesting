@@ -1,0 +1,19 @@
+{
+  "name": "automated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "puppeteer": "^15.5.0",
+    "puppeteer-cluster": "^0.23.0"
+  }
+}
